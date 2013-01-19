@@ -1,0 +1,22 @@
+name: MyPlugin
+authors: [anonymous]
+version: 0.1
+main: org.gestern.MyPlugin
+
+softdepend: [Vault]
+
+commands:
+  myplugin:
+    description: Information about MyPlugin
+    aliases: [mp]
+    usage: |
+      /myplugin
+    permission: enderpearl.admin
+
+permissions:
+  myplugin.use:
+    description: use myplugin
+    default: true
+  myplugin.admin:
+    description: myplugin admin features
+    default: op
