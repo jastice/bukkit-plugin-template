@@ -7,11 +7,11 @@ softdepend: [Vault]
 
 commands:
   myplugin:
-    description: Information about MyPlugin
+    description: myplugin command
     aliases: [mp]
     usage: |
       /myplugin
-    permission: enderpearl.admin
+    permission: myplugin.admin
 
 permissions:
   myplugin.use:
