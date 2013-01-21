@@ -107,15 +107,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
-	<scm>
-		<url>https://github.com/MinecraftWars/Gringotts</url>
-		<connection>scm:git:git://github.com:MinecraftWars/Gringotts.git</connection>
-		<developerConnection>scm:git:git@github.com:MinecraftWars/Gringotts.git</developerConnection>
-	</scm>
-	<issueManagement>
-		<system>GitHub</system>
-		<url>https://github.com/MinecraftWars/Gringotts/issues</url>
-	</issueManagement>
 	<repositories>
 		<repository>
 			<id>bukkit-repo</id>
