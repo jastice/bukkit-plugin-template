@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>minecraftwars</groupId>
-  <artifactId>Gringotts</artifactId>
+  <artifactId>MyPlugin</artifactId>
   <version>0.1-SNAPSHOT</version>
 
 	<build>
@@ -130,9 +130,13 @@
 			<url>http://repo.mcstats.org/content/repositories/public</url>
 		</repository>
 		<repository>
-            <id>Milkbowl-repo</id>
-            <name>Milkbowl</name>
+            <id>herocraft</id>
+            <name>Herocraft</name>
             <url>http://ci.herocraftonline.com/plugin/repository/everything/</url>
+        </repository>
+        <repository>
+            <id>sk89q</id>
+            <url>http://maven.sk89q.com/repo/</url>
         </repository>
 	</repositories>
 
