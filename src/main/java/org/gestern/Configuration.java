@@ -12,23 +12,23 @@ import org.bukkit.configuration.file.FileConfiguration;
  *
  */
 public enum Configuration {
-	
-	/** Central configuration instance. */
+
+    /** Central configuration instance. */
     CONF;
-    
+
     @SuppressWarnings("unused")
     private final Logger log = MyPlugin.P.getLogger();
 
     public boolean variable = false;
-    
+
     /**
-     * Set configuration form values in a file configuration.
+     * Set configuration from values in a file configuration.
      * @param savedConf
      */
     public void readConfig(FileConfiguration savedConfig) {
-        
-    	this.variable = savedConfig.getBoolean("variable",false);
+
+        this.variable = savedConfig.getBoolean("variable",false);
     }
-    
-    
+
+
 }
