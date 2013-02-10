@@ -14,7 +14,7 @@ import static org.gestern.Configuration.CONF;
 
 public class MyPlugin extends JavaPlugin {
 
-    /** The Gringotts plugin instance. */
+    /** The plugin instance. */
     public static MyPlugin P;
 
     private Logger log;
